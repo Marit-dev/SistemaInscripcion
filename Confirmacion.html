@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/Confirmacion.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container mt-4 ">
+    <nav aria-label="breadcrumb" class="bg-light p-3 ms-5 rounded ">
+    <ol class="breadcrumb mb-0">
+         <li class="breadcrumb-item"><a href="Index.html">Datos personales  </a> </li>
+        <li class="breadcrumb-item"><a href="Materias.html">Seleccion materias  </a> </li>
+        <li class="breadcrumb-item active" aria-current="page">Confirmacion </li>
+        <!--<li class="breadcrump-item active" aria-current="page"></li>-->
+    </ol>
+        </nav>
+       
+
+
+     <div class="mb-4 d-flex justify-content-center">
+
+     
+        <div class="shadow p-4 pb-4 pt-0 divConfirm ">
+
+<form action="">
+
+     <div class="mb-4 ps-5 mt-0 title1">
+        <h1 >Confirmacion</h1>
+        </div>
+
+        <div class="p-5 pb-0 pt-4 mb-3 me-0 ms-3 divDatos">
+
+      <div class="mb-4 ps-5 mt-0 title2">
+        <h2 >Datos personales</h2>
+        </div>
+
+        <div class="mb-4 ms-3" id="datosPersonales">
+            <div class="mb-3"><strong>Nombre:</strong> <span id="nombre"></span> </div>
+            <div class="mb-3"><strong>Provincia:</strong> <span id="provincia"></span> </div>
+            <div class="mb-3"><strong>Ciudad:</strong> <span id="ciudad"></span> </div>
+            <div class="mb-3"><strong>Sector:</strong> <span id="sector"></span> </div>
+            <div class="mb-3"><strong>Calle:</strong>  <span id="calle"></span> </div>
+            <div class="mb-3"><strong>Carrera:</strong> <span id="carrera"></span> </div>
+        </div>
+
+        <div >
+ <table class="table table-dark"  id="tablaHorario">
+            <thead>
+               <tr>
+                <th>Asignaturas</th>
+                <th>Lu</th>
+                <th>Ma</th>
+                <th>mie</th>
+                <th>jue</th>
+                <th>vie</th>
+                <th>Sab</th>
+                <th>Dom</th>
+               </tr>
+            </thead>
+            <tbody>
+
+
+            </tbody>
+       </table>
+        </div>
+
+
+       </div>
+
+     <div class="text-end mt-3 me-5 pe-2">
+     <button id="btnFinalizar" type="button" class="btn btn-success me-4">Finalizar</button>
+    </div>
+</form>
+</div>
+</div>
+ </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../Javacript/Confirmacion.js"></script>
+</body>
+</html>

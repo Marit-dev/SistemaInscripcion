@@ -1,0 +1,32 @@
+.title1{
+
+    background-color: rgb(64, 123, 79);
+    color: rgb(247, 251, 251);
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    height: 55px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+.title2{
+
+    background-color: rgb(84, 150, 158);
+    color: rgb(247, 251, 251);
+    margin-left: -0.90rem;
+    margin-right: -0.90rem;
+    height: 55px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+.divConfirm{
+width: 90%;
+height: 100%;
+
+}
+
+.divDatos{
+width: 95%;
+height: 100%;
+
+}
